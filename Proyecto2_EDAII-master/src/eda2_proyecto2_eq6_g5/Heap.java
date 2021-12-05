@@ -74,7 +74,7 @@ public class Heap{
                 return heap[leftChild]>heap[rightChild]?leftChild:rightChild;
     }
      
-    public void ImprimeHeap()
+    public void ImprimeHeap() //Imprime el heap 
         {
             System.out.print("nHeap = ");
             for (int i = 0; i < heapSize; i++)
